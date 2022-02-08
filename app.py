@@ -1,7 +1,7 @@
 # import _crypt
 
 from importlib.resources import path
-import numpy as np
+# import numpy as np
 import pandas as pd
 import openpyxl
 
@@ -20,16 +20,16 @@ def home_page():
 
 
 
-year = 2020
-mes = "B" 
-dia = 28 - 1
+# year = 2020
+# mes = "B" 
+# dia = 28 - 1
 
 
-path= f'{year}.xlsx'
-#leemos el excel usando pandas
-valor = pd.read_excel(path, usecols= mes, header= dia, nrows=0, index_col=None)
-data = valor.columns.values[0]
-print (data)
+# path= f'{year}.xlsx'
+# #leemos el excel usando pandas
+# valor = pd.read_excel(path, usecols= mes, header= dia, nrows=0, index_col=None)
+# data = valor.columns.values[0]
+# print (data)
 
 # if __name__ == '__main__':
 #     app.run(port=7777)
