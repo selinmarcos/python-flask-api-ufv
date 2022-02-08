@@ -31,6 +31,6 @@ valor = pd.read_excel(path, usecols= mes, header= dia, nrows=0, index_col=None)
 data = valor.columns.values[0]
 print (data)
 
-if __name__ == '__main__':
-    app.run(port=7777)
+# if __name__ == '__main__':
+#     app.run(port=7777)
 
